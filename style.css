@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 9em;
+    color: black;
+    line-height: 50vh;
+    font-family: 'Anton', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img1.jpg);
+    background-position: center Top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+}
+
+.transparent-module1,
+.transparent-module2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.top {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.middle {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    line-height: 100vh;
+    color: white;
+}
+
+.bottom {
+    width: 100%;
+    height: 100vh;
+    background-color: white ;
+}
